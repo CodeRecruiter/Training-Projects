@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  width: 710px;
+  margin: 40px auto;
+  border: 3px solid black;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
+  padding: 20px;
+  margin: 0;
+}
+h2,
+h3 {
+  text-transform: uppercase;
+}
+.price {
+  font-size: 30px;
+}
+.style {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+}
+
+article a:link {
+  display: block;
+  margin-bottom: 20px;
+}
+.list {
+  list-style: square;
+}
+.button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  width: 710px;
+  height: 50px;
+  border-top: 3px solid black;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ul {
+  margin-left: 50px;
+}
+
+li {
+  margin: 10px;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::before {
+  content: "SALE";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.3em;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  padding: 5px 10px;
+  top: -13px;
+  left: -26px;
+  border: 1px solid black;
+}
+
+.black {
+  background-color: black;
+  color: black;
+  display: inline-block;
+  margin-left: 1px;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.blue {
+  background-color: blue;
+  color: blue;
+  display: inline-block;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.red {
+  background-color: red;
+  color: red;
+  display: inline-block;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.yellow {
+  background-color: yellow;
+  color: yellow;
+  display: inline-block;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.green {
+  background-color: green;
+  color: green;
+  display: inline-block;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.brown {
+  background-color: brown;
+  color: brown;
+  display: inline-block;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
